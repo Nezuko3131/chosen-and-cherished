@@ -230,7 +230,7 @@ export default async function AboutPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="/donate"
+              href="/donate#make-a-donation"
               className="inline-flex items-center justify-center px-6 py-3 bg-white text-sage-400 font-medium rounded-lg transition-all duration-200 hover:bg-cream-50"
             >
               Donate Now

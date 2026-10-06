@@ -101,7 +101,7 @@ export default async function HomePage() {
               {content.heroSubtitle}
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/donate" className="btn-primary">
+              <Link href="/donate#make-a-donation" className="btn-primary">
                 Support Our Mission
               </Link>
               <Link href="/mission" className="btn-outline">
