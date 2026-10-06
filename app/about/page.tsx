@@ -16,7 +16,7 @@ const defaultContent = {
       children: [
         {
           _type: "span",
-          text: "Chosen and Cherished was founded with a simple belief: every mother deserves to feel supported, valued, and equipped during one of life's most transformative journeys.",
+          text: "Chosen & Cherished was born from a simple desire: to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs.",
         },
       ],
     },
@@ -25,7 +25,7 @@ const defaultContent = {
       children: [
         {
           _type: "span",
-          text: "We understand that unexpected circumstances can create real challenges for families. That's why we're here—to bridge the gap and ensure that no baby goes without essential supplies, and no mother faces pregnancy or early parenthood alone.",
+          text: "This mission is deeply personal to me. I grew up in the Dominican Republic, where I witnessed firsthand the struggles many single mothers and families face. Then, at just 19 years old, I became one of those mothers. In 2006, I left a very unhealthy relationship, and came to the United States with my nine-month-old son. I had a carry-on bag and not much else. I know what it feels like to start from scratch while having a little person completely dependent on you. I was terrified, yet determined to create a better life for my son. That experience never left me.",
         },
       ],
     },
@@ -34,7 +34,34 @@ const defaultContent = {
       children: [
         {
           _type: "span",
-          text: "Our name reflects our core belief: every family is chosen, every mother is cherished, and no one should face hardship by themselves.",
+          text: "Today, when I see a young mother struggling financially, facing pregnancy alone, or rebuilding her life after leaving a difficult situation, I see a younger version of myself in her.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "For years, I have quietly helped mothers by using my own resources and collecting donated baby items from our community. After seeing the overwhelming generosity of people willing to help, I realized this could become something much bigger. Chosen & Cherished was born.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "We are a faith-based organization providing baby essentials, practical support, and community to mothers choosing life. Because when a mother sees a positive pregnancy test, the cost of diapers, clothing, a car seat, or a safe place for her baby to sleep should never be the reason she feels she cannot choose her child.",
+        },
+      ],
+    },
+    {
+      _type: "block",
+      children: [
+        {
+          _type: "span",
+          text: "Our purpose is simple: to remind her that she doesn't have to do this alone. You chose life. Now let us choose to walk beside you.",
         },
       ],
     },
@@ -127,21 +154,12 @@ export default async function AboutPage() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="heading-md text-forest-500 mb-6">Our Story</h2>
-          <p className="text-body text-warm-700 mb-6">
-            Read the full story of Chosen and Cherished — who we are, why we exist,
-            and the families we serve.
-          </p>
-          <a
-            href="https://acrobat.adobe.com/id/urn:aaid:sc:US:3804a4ed-2cd3-446e-b051-e3c55292efd9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center gap-2"
-          >
-            Read Our Story
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-            </svg>
-          </a>
+          <div
+            className="space-y-4 text-body text-warm-700"
+            dangerouslySetInnerHTML={{
+              __html: renderBlocks(content.ourStory),
+            }}
+          />
         </div>
       </section>
 
