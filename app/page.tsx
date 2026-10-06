@@ -90,15 +90,6 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Banner */}
-      <section className="w-full">
-        <img
-          src="/banner.png"
-          alt="Chosen and Cherished"
-          className="w-full h-auto"
-        />
-      </section>
-
       {/* Hero Section */}
       <section className="relative bg-cream-100 overflow-hidden">
         <div className="container-wide py-16 md:py-20 lg:py-24">

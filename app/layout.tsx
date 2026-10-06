@@ -46,6 +46,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
+        {/* Banner */}
+        <img
+          src="/banner.png"
+          alt="Chosen and Cherished"
+          className="w-full"
+        />
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
