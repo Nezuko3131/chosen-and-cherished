@@ -47,30 +47,30 @@ export default async function DonatePage() {
             How Your Gift Makes a Difference
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="card">
-              <span className="text-3xl mb-4 block">🧴</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$10</h3>
+            <div className="card text-center">
+              <span className="text-3xl mb-4 block text-center">🧴</span>
+              <h3 className="heading-sm text-forest-500 mb-2 text-center">$10</h3>
               <p className="text-body-sm">
                 Helps provide wipes, hygiene items or feeding supplies.
               </p>
             </div>
-            <div className="card">
-              <span className="text-3xl mb-4 block">🍼</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$25</h3>
+            <div className="card text-center">
+              <span className="text-3xl mb-4 block text-center">🍼</span>
+              <h3 className="heading-sm text-forest-500 mb-2 text-center">$25</h3>
               <p className="text-body-sm">
                 Helps provide diapers and everyday baby essentials.
               </p>
             </div>
-            <div className="card">
-              <span className="text-3xl mb-4 block">👶</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$50</h3>
+            <div className="card text-center">
+              <span className="text-3xl mb-4 block text-center">👶</span>
+              <h3 className="heading-sm text-forest-500 mb-2 text-center">$50</h3>
               <p className="text-body-sm">
                 Helps provide a larger bundle of necessities for a baby.
               </p>
             </div>
-            <div className="card">
-              <span className="text-3xl mb-4 block">🛒</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$100</h3>
+            <div className="card text-center">
+              <span className="text-3xl mb-4 block text-center">🛒</span>
+              <h3 className="heading-sm text-forest-500 mb-2 text-center">$100</h3>
               <p className="text-body-sm">
                 Helps us respond to bigger needs such as safe-sleep equipment,
                 strollers, feeding supplies or other baby gear.
