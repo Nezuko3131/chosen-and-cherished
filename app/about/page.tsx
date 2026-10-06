@@ -13,8 +13,7 @@ const defaultContent = {
   ourStory: [
     {
       _type: "block",
-      bold: true,
-      children: [{ _type: "span", text: "Chosen & Cherished was born from a simple desire: to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs." }],
+      children: [{ _type: "span", text: "Chosen & Cherished was born from a simple desire: " }, { _type: "span", text: "to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs.", bold: true }],
     },
     {
       _type: "block",
@@ -126,11 +125,15 @@ function renderBlocks(blocks: any[] | undefined): string {
   return blocks
     .map((block) => {
       if (block._type === "block") {
-        const text = block.children?.map((child: any) => child.text || "").join("") || "";
+        const html = block.children?.map((child: any) => {
+          const text = child.text || "";
+          if (child.bold) return `<strong>${text}</strong>`;
+          return text;
+        }).join("") || "";
         const classes = ["mb-6"];
         if (block.lightGreen) classes.push("text-sage-400", "font-medium");
         if (block.bold) classes.push("font-bold");
-        return `<p class="${classes.join(" ")}">${text}</p>`;
+        return `<p class="${classes.join(" ")}">${html}</p>`;
       }
       return "";
     })
