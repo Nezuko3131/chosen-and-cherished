@@ -1,16 +1,8 @@
-import imageUrlBuilder from "@sanity/image-url";
-
+// Sanity API client using direct fetch
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "";
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET || "production";
 const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2024-01-01";
 
-const builder = imageUrlBuilder({ projectId, dataset });
-
-export function urlFor(source: any) {
-  return builder.image(source);
-}
-
-// Direct Sanity API fetch - no @sanity/client dependency
 export async function sanityFetch<T>({
   query,
   params = {},
@@ -30,7 +22,7 @@ export async function sanityFetch<T>({
       headers: {
         "Content-Type": "application/json",
       },
-      next: { revalidate: 60 }, // Revalidate every 60 seconds
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {

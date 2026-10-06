@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   explore: [
@@ -23,8 +24,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-sage-400 flex items-center justify-center">
-                <span className="text-white font-serif font-bold text-lg">C</span>
+              <div className="relative w-12 h-12">
+                <Image
+                  src="/logo.png"
+                  alt="Chosen and Cherished Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <span className="text-cream-50 font-serif text-xl font-semibold">
                 Chosen and Cherished

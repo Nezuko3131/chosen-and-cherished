@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "About", href: "/about" },
@@ -21,8 +22,14 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-sage-400 flex items-center justify-center">
-                <span className="text-white font-serif font-bold text-lg">C</span>
+              <div className="relative w-12 h-12">
+                <Image
+                  src="/logo.png"
+                  alt="Chosen and Cherished Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
               <div className="hidden sm:block">
                 <span className="text-forest-500 font-serif text-xl font-semibold">

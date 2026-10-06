@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Get in touch with Chosen and Cherished. We're here to help and answer any questions you may have.",
 };
 
-const DEFAULT_FORM_URL = "https://forms.google.com/contact";
+const DEFAULT_FORM_URL = "https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF";
 
 async function getSiteSettings(): Promise<SiteSettings | null> {
   try {
