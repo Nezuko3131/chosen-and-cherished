@@ -43,7 +43,7 @@ export default function Header() {
                 {item.name}
               </Link>
             ))}
-            <Link href="/donate" className="btn-primary text-sm py-2 px-4">
+            <Link href="/donate#make-a-donation" className="btn-primary text-sm py-2 px-4">
               Donate
             </Link>
           </div>
@@ -95,7 +95,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/donate"
+                href="/donate#make-a-donation"
                 className="btn-primary text-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
