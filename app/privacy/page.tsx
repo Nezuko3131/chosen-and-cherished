@@ -114,7 +114,7 @@ export default function PrivacyPage() {
               If you have questions about this Privacy Policy, please contact us:
             </p>
             <ul>
-              <li>Email: contact@chosenandcherished.org</li>
+              <li>Email: hello@chosen-and-cherished.org</li>
               <li>
                 Form:{" "}
                 <a href="/contact" className="text-sage-400 hover:text-sage-500">
