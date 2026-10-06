@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HashScroll from "@/components/HashScroll";
 
 export const metadata: Metadata = {
   title: {
@@ -53,6 +54,7 @@ export default function RootLayout({
           className="w-full"
         />
         <Header />
+        <HashScroll />
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
