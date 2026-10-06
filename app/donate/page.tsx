@@ -76,8 +76,8 @@ export default async function DonatePage() {
                 strollers, feeding supplies or other baby gear.
               </p>
             </div>
-            <div className="card md:col-span-2">
-              <span className="text-3xl mb-4 block">💝</span>
+            <div className="md:col-span-2 text-center py-4">
+              <span className="text-3xl mb-2 block">💝</span>
               <h3 className="heading-sm text-forest-500 mb-2">Any Amount Makes a Difference</h3>
               <p className="text-body-sm">
                 Even $5 or $10 helps us fill the gaps when donated inventory
