@@ -92,14 +92,10 @@ export default async function HomePage() {
     <>
       {/* Banner */}
       <section className="w-full">
-        <Image
+        <img
           src="/banner.png"
           alt="Chosen and Cherished"
-          width={820}
-          height={305}
           className="w-full h-auto"
-          priority
-          unoptimized={true}
         />
       </section>
 
