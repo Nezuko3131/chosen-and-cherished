@@ -21,21 +21,14 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <div className="flex items-center gap-3">
-              <div className="relative w-12 h-12">
-                <Image
-                  src="/logo.png"
-                  alt="Chosen and Cherished Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-              <div className="hidden sm:block">
-                <span className="text-forest-500 font-serif text-xl font-semibold">
-                  Chosen and Cherished
-                </span>
-              </div>
+            <div className="relative w-16 h-16">
+              <Image
+                src="/logo.png"
+                alt="Chosen and Cherished Logo"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
           </Link>
 

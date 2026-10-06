@@ -44,15 +44,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="mb-4">
               <img
                 src="/logo.png"
                 alt="Chosen and Cherished Logo"
-                className="w-12 h-12 object-contain"
+                className="w-16 h-16 object-contain"
               />
-              <span className="text-cream-50 font-serif text-xl font-semibold">
-                Chosen and Cherished
-              </span>
             </div>
             <p className="text-cream-200 text-body-sm max-w-md leading-relaxed">
               Providing essential baby supplies, resources, and compassionate support
