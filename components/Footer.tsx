@@ -45,12 +45,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="relative w-14 h-14 rounded-full overflow-hidden bg-[#FDF5E6] ring-2 ring-[#FDF5E6]">
-                <Image
+              <div className="relative w-14 h-14 rounded-full overflow-hidden bg-[#FDF5E6]">
+                <img
                   src="/logo.png"
                   alt="Chosen and Cherished Logo"
-                  fill
-                  className="object-contain !bg-[#FDF5E6]"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <span className="text-cream-50 font-serif text-xl font-semibold">
