@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="relative w-12 h-12">
+              <div className="relative w-14 h-14 rounded-lg overflow-hidden bg-cream-50 p-1">
                 <Image
                   src="/logo.png"
                   alt="Chosen and Cherished Logo"
@@ -61,6 +61,22 @@ export default function Footer() {
               Providing essential baby supplies, resources, and compassionate support
               to pregnant mothers and families experiencing financial hardship.
             </p>
+            {/* Social Icons - prominently placed */}
+            <div className="mt-6 flex gap-4">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-cream-200 hover:text-white transition-colors bg-forest-600 hover:bg-forest-400 px-4 py-2 rounded-lg"
+                  aria-label={social.name}
+                >
+                  {social.icon}
+                  <span className="text-sm font-medium">{social.name}</span>
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Explore */}
@@ -99,21 +115,6 @@ export default function Footer() {
               <Link href="/donate" className="btn-secondary text-sm py-2 px-4">
                 Donate Now
               </Link>
-            </div>
-            {/* Social Icons */}
-            <div className="mt-4 flex gap-3">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cream-200 hover:text-sage-300 transition-colors"
-                  aria-label={social.name}
-                >
-                  {social.icon}
-                </a>
-              ))}
             </div>
           </div>
         </div>
