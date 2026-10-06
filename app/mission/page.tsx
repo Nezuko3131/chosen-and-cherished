@@ -138,9 +138,12 @@ export default async function MissionPage() {
             href="https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary"
+            className="btn-primary inline-flex items-center gap-2"
           >
             Request Assistance
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
           </a>
         </div>
       </section>
