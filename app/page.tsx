@@ -213,13 +213,13 @@ export default async function HomePage() {
       {/* CTA Section */}
       <section className="section-padding bg-sage-400 text-white">
         <div className="container-narrow text-center">
-          <h2 className="heading-md mb-4">Need Support?</h2>
+          <h2 className="heading-md mb-4">Need Assistance?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
             If you or someone you know is experiencing hardship during pregnancy or
             early parenthood, we&apos;re here to help.
           </p>
           <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-white text-sage-400 font-medium rounded-lg transition-all duration-200 hover:bg-cream-50">
-            Request Support
+            Request Assistance
           </Link>
         </div>
       </section>

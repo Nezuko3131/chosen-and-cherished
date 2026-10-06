@@ -127,12 +127,21 @@ export default async function AboutPage() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="heading-md text-forest-500 mb-6">Our Story</h2>
-          <div
-            className="space-y-4 text-body text-warm-700"
-            dangerouslySetInnerHTML={{
-              __html: renderBlocks(content.ourStory),
-            }}
-          />
+          <p className="text-body text-warm-700 mb-6">
+            Read the full story of Chosen and Cherished — who we are, why we exist,
+            and the families we serve.
+          </p>
+          <a
+            href="https://acrobat.adobe.com/id/urn:aaid:sc:US:3804a4ed-2cd3-446e-b051-e3c55292efd9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-flex items-center gap-2"
+          >
+            Read Our Story
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
         </div>
       </section>
 

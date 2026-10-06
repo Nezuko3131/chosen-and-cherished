@@ -128,7 +128,7 @@ export default async function MissionPage() {
       {/* How to Access */}
       <section className="section-padding bg-white">
         <div className="container-narrow">
-          <h2 className="heading-md text-forest-500 mb-6">Need Support?</h2>
+          <h2 className="heading-md text-forest-500 mb-6">Need Assistance?</h2>
           <p className="text-body text-warm-700 mb-6">
             If you or someone you know could benefit from our services, we encourage
             you to reach out. There&apos;s no judgment here—only compassion and
@@ -138,7 +138,7 @@ export default async function MissionPage() {
             href="/contact"
             className="btn-primary"
           >
-            Request Support
+            Request Assistance
           </a>
         </div>
       </section>
