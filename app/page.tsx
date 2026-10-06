@@ -218,9 +218,9 @@ export default async function HomePage() {
             If you or someone you know is experiencing hardship during pregnancy or
             early parenthood, we&apos;re here to help.
           </p>
-          <Link href="/contact" className="inline-flex items-center justify-center px-6 py-3 bg-white text-sage-400 font-medium rounded-lg transition-all duration-200 hover:bg-cream-50">
+          <a href="https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-white text-sage-400 font-medium rounded-lg transition-all duration-200 hover:bg-cream-50">
             Request Assistance
-          </Link>
+          </a>
         </div>
       </section>
     </>
