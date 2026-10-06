@@ -3,16 +3,16 @@ import Image from "next/image";
 
 const footerLinks = {
   explore: [
-    { name: "About Us", href: "/about" },
-    { name: "Our Mission", href: "/mission" },
-    { name: "Get Involved", href: "/get-involved" },
-    { name: "News & Stories", href: "/news" },
-    { name: "Contact", href: "/contact" },
+    { name: "About Us", href: "/about#about" },
+    { name: "Our Mission", href: "/mission#mission" },
+    { name: "Get Involved", href: "/get-involved#get-involved" },
+    { name: "News & Stories", href: "/news#news" },
+    { name: "Contact", href: "/contact#contact" },
   ],
   support: [
-    { name: "Donate", href: "/donate" },
-    { name: "Baby Wishlist", href: "/wishlist" },
-    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Donate", href: "/donate#make-a-donation" },
+    { name: "Baby Wishlist", href: "/wishlist#wishlist" },
+    { name: "Privacy Policy", href: "/privacy#privacy" },
   ],
 };
 
@@ -109,9 +109,9 @@ export default function Footer() {
               ))}
             </ul>
             <div className="mt-6">
-              <Link href="/donate" className="btn-secondary text-sm py-2 px-4">
+              <a href="/donate#make-a-donation" className="btn-secondary text-sm py-2 px-4">
                 Donate Now
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -33,7 +33,7 @@ export default async function NewsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream-100 section-padding">
+      <section id="news" className="bg-cream-100 section-padding">
         <div className="container-narrow text-center">
           <h1 className="heading-lg text-forest-500 mb-4">News & Stories</h1>
           <p className="text-xl text-warm-700 max-w-2xl mx-auto">

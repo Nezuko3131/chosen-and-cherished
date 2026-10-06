@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream-100 section-padding">
+      <section id="contact" className="bg-cream-100 section-padding">
         <div className="container-narrow text-center">
           <span className="text-5xl mb-6 block">💬</span>
           <h1 className="heading-lg text-forest-500 mb-4">Contact Us</h1>

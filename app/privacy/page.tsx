@@ -10,7 +10,7 @@ export default function PrivacyPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream-100 section-padding">
+      <section id="privacy" className="bg-cream-100 section-padding">
         <div className="container-narrow text-center">
           <h1 className="heading-lg text-forest-500 mb-4">Privacy Policy</h1>
           <p className="text-warm-600">Last updated: October 2024</p>
