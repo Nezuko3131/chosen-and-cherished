@@ -104,7 +104,7 @@ export default async function HomePage() {
               <Link href="/donate#make-a-donation" className="btn-primary">
                 Support Our Mission
               </Link>
-              <Link href="/mission" className="btn-outline">
+              <Link href="/mission#mission" className="btn-outline">
                 Learn More
               </Link>
             </div>

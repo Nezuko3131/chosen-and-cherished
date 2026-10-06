@@ -5,9 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "About", href: "/about" },
-  { name: "Our Mission", href: "/mission" },
-  { name: "Get Involved", href: "/get-involved" },
+  { name: "About", href: "/about#about" },
+  { name: "Our Mission", href: "/mission#mission" },
+  { name: "Get Involved", href: "/get-involved#get-involved" },
   { name: "News", href: "/news" },
   { name: "Contact", href: "/contact" },
 ];

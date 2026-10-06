@@ -79,7 +79,7 @@ export default async function MissionPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream-100 section-padding">
+      <section id="mission" className="bg-cream-100 section-padding">
         <div className="container-narrow text-center">
           <h1 className="heading-lg text-forest-500 mb-4">{content.title}</h1>
           <div
@@ -92,7 +92,7 @@ export default async function MissionPage() {
       </section>
 
       {/* Programs */}
-      <section className="section-padding bg-white">
+      <section id="programs" className="section-padding bg-white">
         <div className="container-wide">
           <h2 className="heading-md text-forest-500 text-center mb-12">
             Programs & Services
@@ -126,7 +126,7 @@ export default async function MissionPage() {
       </section>
 
       {/* How to Access */}
-      <section className="section-padding bg-white">
+      <section id="need-assistance" className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="heading-md text-forest-500 mb-6">Need Assistance?</h2>
           <p className="text-body text-warm-700 mb-6">

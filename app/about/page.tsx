@@ -147,7 +147,7 @@ export default async function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-cream-100 section-padding">
+      <section id="about" className="bg-cream-100 section-padding">
         <div className="container-narrow text-center">
           <h1 className="heading-lg text-forest-500 mb-4">{content.title}</h1>
           <p className="text-xl text-warm-700 max-w-2xl mx-auto">
@@ -158,7 +158,7 @@ export default async function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="section-padding bg-white">
+      <section id="our-story" className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="heading-md text-sage-400 mb-8 text-center">Our Story</h2>
           <div
