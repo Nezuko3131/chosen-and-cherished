@@ -13,6 +13,7 @@ const defaultContent = {
   ourStory: [
     {
       _type: "block",
+      bold: true,
       children: [{ _type: "span", text: "Chosen & Cherished was born from a simple desire: to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs." }],
     },
     {
@@ -33,6 +34,8 @@ const defaultContent = {
     },
     {
       _type: "block",
+      bold: true,
+      lightGreen: true,
       children: [{ _type: "span", text: "Today, when I see a young mother struggling financially, facing pregnancy alone, or rebuilding her life after leaving a difficult situation, I see a younger version of myself in her." }],
     },
     {
@@ -41,6 +44,8 @@ const defaultContent = {
     },
     {
       _type: "block",
+      bold: true,
+      lightGreen: true,
       children: [{ _type: "span", text: "Chosen & Cherished was born." }],
     },
     {
@@ -57,6 +62,8 @@ const defaultContent = {
     },
     {
       _type: "block",
+      bold: true,
+      lightGreen: true,
       children: [{ _type: "span", text: "You chose life. Now let us choose to walk beside you." }],
     },
   ],
@@ -120,7 +127,10 @@ function renderBlocks(blocks: any[] | undefined): string {
     .map((block) => {
       if (block._type === "block") {
         const text = block.children?.map((child: any) => child.text || "").join("") || "";
-        return `<p class="mb-6">${text}</p>`;
+        const classes = ["mb-6"];
+        if (block.lightGreen) classes.push("text-sage-400", "font-medium");
+        if (block.bold) classes.push("font-bold");
+        return `<p class="${classes.join(" ")}">${text}</p>`;
       }
       return "";
     })
@@ -147,9 +157,9 @@ export default async function AboutPage() {
       {/* Our Story */}
       <section className="section-padding bg-white">
         <div className="container-narrow">
-          <h2 className="heading-md text-forest-500 mb-6">Our Story</h2>
+          <h2 className="heading-md text-sage-400 mb-8 text-center">Our Story</h2>
           <div
-            className="space-y-4 text-body text-warm-700"
+            className="text-body text-warm-700"
             dangerouslySetInnerHTML={{
               __html: renderBlocks(content.ourStory),
             }}
