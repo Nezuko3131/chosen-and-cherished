@@ -20,7 +20,7 @@ export default function PrivacyPage() {
       {/* Content */}
       <section className="section-padding bg-white">
         <div className="container-narrow">
-          <div className="prose prose-lg max-w-none text-warm-700">
+          <div className="prose prose-lg max-w-none text-warm-700 space-y-8">
             <h2>Introduction</h2>
             <p>
               Chosen and Cherished (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
@@ -117,7 +117,7 @@ export default function PrivacyPage() {
               <li>Email: hello@chosen-and-cherished.org</li>
               <li>
                 Form:{" "}
-                <a href="/contact" className="text-sage-400 hover:text-sage-500">
+                <a href="/contact#contact" className="text-sage-400 hover:text-sage-500">
                   Contact Page
                 </a>
               </li>
