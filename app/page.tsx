@@ -90,6 +90,20 @@ export default async function HomePage() {
 
   return (
     <>
+      {/* Banner */}
+      <section className="w-full">
+        <div className="relative w-full" style={{ height: 'auto' }}>
+          <Image
+            src="/banner.png"
+            alt="Chosen and Cherished"
+            width={820}
+            height={305}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="relative bg-cream-100 overflow-hidden">
         <div className="container-wide py-16 md:py-20 lg:py-24">
