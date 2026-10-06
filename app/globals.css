@@ -4,8 +4,12 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     scroll-padding-top: 280px;
+  }
+  
+  [id] {
+    scroll-margin-top: 280px;
   }
   
   body {

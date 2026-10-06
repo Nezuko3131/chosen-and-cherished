@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ScrollHandler from "@/components/ScrollHandler";
 
 export const metadata: Metadata = {
   title: {
@@ -55,9 +53,6 @@ export default function RootLayout({
           className="w-full"
         />
         <Header />
-        <Suspense fallback={null}>
-          <ScrollHandler />
-        </Suspense>
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
