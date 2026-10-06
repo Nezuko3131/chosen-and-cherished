@@ -32,8 +32,10 @@ export default async function DonatePage() {
           <span className="text-5xl mb-6 block">💝</span>
           <h1 className="heading-lg text-forest-500 mb-4">Make a Donation</h1>
           <p className="text-xl text-warm-700 max-w-2xl mx-auto">
-            Your financial support helps us purchase critical baby supplies and
-            provides essential resources to families who need them most.
+            Your gift helps a local mom say "yes, I have what my baby needs."
+            Every donation helps Chosen & Cherished provide baby essentials to local
+            mothers and families facing financial hardship, unexpected circumstances,
+            or starting over.
           </p>
         </div>
       </section>
@@ -46,35 +48,40 @@ export default async function DonatePage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="card">
-              <span className="text-3xl mb-4 block">🍼</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$25 Provides</h3>
+              <span className="text-3xl mb-4 block">🧴</span>
+              <h3 className="heading-sm text-forest-500 mb-2">$10 Helps</h3>
               <p className="text-body-sm">
-                A week&apos;s worth of diapers and wipes for one baby, giving parents
-                one less thing to worry about.
+                Helps provide wipes, hygiene items or feeding supplies.
+              </p>
+            </div>
+            <div className="card">
+              <span className="text-3xl mb-4 block">🍼</span>
+              <h3 className="heading-sm text-forest-500 mb-2">$25 Helps</h3>
+              <p className="text-body-sm">
+                Helps provide diapers and everyday baby essentials.
               </p>
             </div>
             <div className="card">
               <span className="text-3xl mb-4 block">👶</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$50 Provides</h3>
+              <h3 className="heading-sm text-forest-500 mb-2">$50 Helps</h3>
               <p className="text-body-sm">
-                A complete outfit set including onesies, socks, and a warm blanket
-                for a newborn.
+                Helps provide a larger bundle of necessities for a baby.
               </p>
             </div>
             <div className="card">
               <span className="text-3xl mb-4 block">🛒</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$100 Provides</h3>
+              <h3 className="heading-sm text-forest-500 mb-2">$100 Helps</h3>
               <p className="text-body-sm">
-                A car seat or crib, essential items that keep babies safe during
-                travel and sleep.
+                Helps us respond to bigger needs such as safe-sleep equipment,
+                strollers, feeding supplies or other baby gear.
               </p>
             </div>
-            <div className="card">
-              <span className="text-3xl mb-4 block">🏠</span>
-              <h3 className="heading-sm text-forest-500 mb-2">$250 Provides</h3>
+            <div className="card md:col-span-2">
+              <span className="text-3xl mb-4 block">💝</span>
+              <h3 className="heading-sm text-forest-500 mb-2">Any Amount Makes a Difference</h3>
               <p className="text-body-sm">
-                A full month of infant formula, ensuring babies have proper nutrition
-                when breastfeeding isn&apos;t possible.
+                Even $5 or $10 helps us fill the gaps when donated inventory
+                doesn&apos;t cover what a family needs.
               </p>
             </div>
           </div>
@@ -89,8 +96,10 @@ export default async function DonatePage() {
               Our Commitment to Transparency
             </h2>
             <p className="text-body-sm mb-4">
-              Every dollar of your donation goes directly to helping families.
-              We operate efficiently to maximize the impact of every contribution.
+              We take stewardship seriously. Donations support our mission of providing
+              baby essentials to families in need, including purchasing needed supplies
+              and supporting the resources required to collect, organize, store and
+              distribute those items responsibly.
             </p>
             <p className="text-sm text-warm-600 italic">
               Donations are processed securely through Zeffy, our trusted donation
