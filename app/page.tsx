@@ -92,16 +92,15 @@ export default async function HomePage() {
     <>
       {/* Banner */}
       <section className="w-full">
-        <div className="relative w-full" style={{ height: 'auto' }}>
-          <Image
-            src="/banner.png"
-            alt="Chosen and Cherished"
-            width={820}
-            height={305}
-            className="w-full h-auto"
-            priority
-          />
-        </div>
+        <Image
+          src="/banner.png"
+          alt="Chosen and Cherished"
+          width={820}
+          height={305}
+          className="w-full h-auto"
+          priority
+          unoptimized={true}
+        />
       </section>
 
       {/* Hero Section */}
