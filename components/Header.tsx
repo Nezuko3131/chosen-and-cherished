@@ -1,0 +1,110 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+
+const navigation = [
+  { name: "About", href: "/about" },
+  { name: "Our Mission", href: "/mission" },
+  { name: "Get Involved", href: "/get-involved" },
+  { name: "News", href: "/news" },
+  { name: "Contact", href: "/contact" },
+];
+
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  return (
+    <header className="bg-cream-50 border-b border-cream-200 sticky top-0 z-50">
+      <nav className="container-wide py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/" className="flex-shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-sage-400 flex items-center justify-center">
+                <span className="text-white font-serif font-bold text-lg">C</span>
+              </div>
+              <div className="hidden sm:block">
+                <span className="text-forest-500 font-serif text-xl font-semibold">
+                  Chosen and Cherished
+                </span>
+              </div>
+            </div>
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center gap-8">
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-warm-700 hover:text-sage-400 font-medium transition-colors"
+              >
+                {item.name}
+              </Link>
+            ))}
+            <Link href="/donate" className="btn-primary text-sm py-2 px-4">
+              Donate
+            </Link>
+          </div>
+
+          {/* Mobile menu button */}
+          <button
+            type="button"
+            className="md:hidden p-2 text-warm-700"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <svg
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              {mobileMenuOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              )}
+            </svg>
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {mobileMenuOpen && (
+          <div className="md:hidden mt-4 pb-4">
+            <div className="flex flex-col gap-4">
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="text-warm-700 hover:text-sage-400 font-medium transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              ))}
+              <Link
+                href="/donate"
+                className="btn-primary text-center"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Donate
+              </Link>
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+}
