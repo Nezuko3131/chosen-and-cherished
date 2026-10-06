@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <div className="prose prose-lg max-w-none text-warm-700 space-y-8">
-            <h2>Introduction</h2>
+            <h2 className="text-sage-400 font-bold">Introduction</h2>
             <p>
               Chosen and Cherished (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
               protecting your privacy. This Privacy Policy explains how we collect,
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
               website.
             </p>
 
-            <h2>Information We Collect</h2>
+            <h2 className="text-sage-400 font-bold">Information We Collect</h2>
             <p>
               We may collect information about you in a variety of ways, including:
             </p>
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
               </li>
             </ul>
 
-            <h2>How We Use Your Information</h2>
+            <h2 className="text-sage-400 font-bold">How We Use Your Information</h2>
             <p>We use the information we collect to:</p>
             <ul>
               <li>Respond to your inquiries and fulfill your requests</li>
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
               <li>Comply with legal obligations</li>
             </ul>
 
-            <h2>Information Sharing</h2>
+            <h2 className="text-sage-400 font-bold">Information Sharing</h2>
             <p>
               We do not sell, trade, or rent your personal information to third
               parties. We may share your information with:
@@ -75,14 +75,14 @@ export default function PrivacyPage() {
               </li>
             </ul>
 
-            <h2>Data Security</h2>
+            <h2 className="text-sage-400 font-bold">Data Security</h2>
             <p>
               We implement appropriate technical and organizational measures to
               protect your personal information. However, no method of transmission
               over the Internet is 100% secure.
             </p>
 
-            <h2>Your Rights</h2>
+            <h2 className="text-sage-400 font-bold">Your Rights</h2>
             <p>
               Depending on your location, you may have certain rights regarding your
               personal information, including the right to access, correct, or
@@ -90,26 +90,26 @@ export default function PrivacyPage() {
               the information below.
             </p>
 
-            <h2>External Links</h2>
+            <h2 className="text-sage-400 font-bold">External Links</h2>
             <p>
               Our website may contain links to external sites, including Amazon
               Wishlist and Zeffy. We are not responsible for the privacy practices
               of these third-party sites.
             </p>
 
-            <h2>Children&apos;s Privacy</h2>
+            <h2 className="text-sage-400 font-bold">Children&apos;s Privacy</h2>
             <p>
               We do not knowingly collect personal information from children under
               13 without parental consent.
             </p>
 
-            <h2>Changes to This Policy</h2>
+            <h2 className="text-sage-400 font-bold">Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. We will notify
               you of any changes by posting the new policy on this page.
             </p>
 
-            <h2>Contact Us</h2>
+            <h2 className="text-sage-400 font-bold">Contact Us</h2>
             <p>
               If you have questions about this Privacy Policy, please contact us:
             </p>
