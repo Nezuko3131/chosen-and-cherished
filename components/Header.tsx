@@ -16,7 +16,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-cream-50 border-b border-cream-200 sticky top-0 z-50">
+    <header className="bg-cream-50 border-b border-cream-200">
       <nav className="container-wide py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
