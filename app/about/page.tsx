@@ -13,57 +13,51 @@ const defaultContent = {
   ourStory: [
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "Chosen & Cherished was born from a simple desire: to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs.",
-        },
-      ],
+      children: [{ _type: "span", text: "Chosen & Cherished was born from a simple desire: to make sure no mother feels she has to choose between keeping her baby and having the proper resources to provide for that baby's needs." }],
     },
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "This mission is deeply personal to me. I grew up in the Dominican Republic, where I witnessed firsthand the struggles many single mothers and families face. Then, at just 19 years old, I became one of those mothers. In 2006, I left a very unhealthy relationship, and came to the United States with my nine-month-old son. I had a carry-on bag and not much else. I know what it feels like to start from scratch while having a little person completely dependent on you. I was terrified, yet determined to create a better life for my son. That experience never left me.",
-        },
-      ],
+      children: [{ _type: "span", text: "This mission is deeply personal to me." }],
     },
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "Today, when I see a young mother struggling financially, facing pregnancy alone, or rebuilding her life after leaving a difficult situation, I see a younger version of myself in her.",
-        },
-      ],
+      children: [{ _type: "span", text: "I grew up in the Dominican Republic, where I witnessed firsthand the struggles many single mothers and families face. Then, at just 19 years old, I became one of those mothers." }],
     },
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "For years, I have quietly helped mothers by using my own resources and collecting donated baby items from our community. After seeing the overwhelming generosity of people willing to help, I realized this could become something much bigger. Chosen & Cherished was born.",
-        },
-      ],
+      children: [{ _type: "span", text: "In 2006, I left a very unhealthy relationship, and came to the United States with my nine-month-old son. I had a carry-on bag and not much else. I know what it feels like to start from scratch while having a little person completely dependent on you. I was terrified, yet determined to create a better life for my son." }],
     },
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "We are a faith-based organization providing baby essentials, practical support, and community to mothers choosing life. Because when a mother sees a positive pregnancy test, the cost of diapers, clothing, a car seat, or a safe place for her baby to sleep should never be the reason she feels she cannot choose her child.",
-        },
-      ],
+      children: [{ _type: "span", text: "That experience never left me." }],
     },
     {
       _type: "block",
-      children: [
-        {
-          _type: "span",
-          text: "Our purpose is simple: to remind her that she doesn't have to do this alone. You chose life. Now let us choose to walk beside you.",
-        },
-      ],
+      children: [{ _type: "span", text: "Today, when I see a young mother struggling financially, facing pregnancy alone, or rebuilding her life after leaving a difficult situation, I see a younger version of myself in her." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "For years, I have quietly helped mothers by using my own resources and collecting donated baby items from our community. After seeing the overwhelming generosity of people willing to help, I realized this could become something much bigger." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "Chosen & Cherished was born." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "We are a faith-based organization providing baby essentials, practical support, and community to mothers choosing life." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "Because when a mother sees a positive pregnancy test, the cost of diapers, clothing, a car seat, or a safe place for her baby to sleep should never be the reason she feels she cannot choose her child." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "Our purpose is simple: to remind her that she doesn't have to do this alone." }],
+    },
+    {
+      _type: "block",
+      children: [{ _type: "span", text: "You chose life. Now let us choose to walk beside you." }],
     },
   ],
   mission:
@@ -126,7 +120,7 @@ function renderBlocks(blocks: any[] | undefined): string {
     .map((block) => {
       if (block._type === "block") {
         const text = block.children?.map((child: any) => child.text || "").join("") || "";
-        return `<p>${text}</p>`;
+        return `<p class="mb-6">${text}</p>`;
       }
       return "";
     })
