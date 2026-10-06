@@ -87,6 +87,17 @@ export default function Footer() {
           <p className="text-cream-300 text-sm text-center">
             © {new Date().getFullYear()} Chosen and Cherished. All rights reserved.
           </p>
+          <p className="text-cream-400 text-xs text-center mt-2">
+            Powered by{" "}
+            <a
+              href="https://d4tatech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sage-300 hover:text-sage-200 transition-colors"
+            >
+              d4tatech.com
+            </a>
+          </p>
         </div>
       </div>
     </footer>
