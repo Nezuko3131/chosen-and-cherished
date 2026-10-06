@@ -27,7 +27,7 @@ export default async function DonatePage() {
   return (
     <>
       {/* Hero */}
-      <section id="make-a-donation" className="bg-cream-100 section-padding scroll-mt-[180px]">
+      <section id="make-a-donation" className="bg-cream-100 section-padding" style={{ scrollMarginTop: '280px' }}>
         <div className="container-narrow text-center">
           <span className="text-5xl mb-6 block">💝</span>
           <h1 className="heading-lg text-forest-500 mb-4">Make a Donation</h1>
