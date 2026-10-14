@@ -99,9 +99,7 @@ export default async function HomePage() {
         <div className="container-wide py-10 md:py-14 bg-cream-50">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
             <Link
-              href="https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/get-help"
               className="group flex items-center gap-4 px-6 py-5 md:px-8 md:py-6 bg-rose-400 hover:bg-rose-500 text-white rounded-lg transition-colors"
             >
               <span className="flex-shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-full bg-white/15 flex items-center justify-center">
