@@ -78,14 +78,20 @@ export interface HomepageContent extends SanityDocument {
   _type: "homepage";
   heroTitle: string;
   heroSubtitle: string;
+  heroScript?: string;
+  heroVerse?: string;
+  heroVerseRef?: string;
   heroImage?: any;
+  badgeItems?: { icon: string; label: string; sub: string }[];
   missionStatement: string;
   impactSection: {
     title: string;
+    subtitle?: string;
     items: { icon: string; title: string; description: string }[];
   };
   waysToHelpSection: {
     title: string;
+    subtitle?: string;
     items: { title: string; description: string; link: string; linkText: string }[];
   };
 }

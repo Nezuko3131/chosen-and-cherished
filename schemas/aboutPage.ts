@@ -58,33 +58,6 @@ export default {
           ],
         },
       ],
-      initialValue: [
-        {
-          title: "Compassion",
-          description:
-            "We approach every mother and family with genuine care and understanding, recognizing the challenges they face.",
-        },
-        {
-          title: "Dignity",
-          description:
-            "We believe every family deserves to be treated with respect and honor, never feeling like charity cases.",
-        },
-        {
-          title: "Hope",
-          description:
-            "We are committed to providing not just material support, but emotional encouragement and hope for brighter tomorrows.",
-        },
-        {
-          title: "Community",
-          description:
-            "We build connections between families, creating a support network that extends beyond our direct services.",
-        },
-        {
-          title: "Faith",
-          description:
-            "Our work is grounded in the belief that every life has purpose and value, and that communities can transform lives.",
-        },
-      ],
     },
     {
       name: "whoWeServe",

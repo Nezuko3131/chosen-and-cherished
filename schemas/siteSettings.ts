@@ -7,7 +7,6 @@ export default {
       name: "title",
       title: "Site Title",
       type: "string",
-      initialValue: "Chosen and Cherished",
     },
     {
       name: "description",

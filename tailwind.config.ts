@@ -71,8 +71,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
-        sans: ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
+        serif: ["var(--font-playfair)", "Georgia", "serif"],
+        script: ["var(--font-caveat)", "cursive"],
+        sans: ["var(--font-mulish)", "system-ui", "sans-serif"],
       },
       spacing: {
         "18": "4.5rem",

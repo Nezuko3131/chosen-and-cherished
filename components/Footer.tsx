@@ -59,7 +59,7 @@ export default function Footer() {
               to pregnant mothers and families experiencing financial hardship.
             </p>
             {/* Social Icons - prominently placed */}
-            <div className="mt-6 flex gap-4">
+            <div id="social" className="mt-6 flex gap-4 scroll-mt-20">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}

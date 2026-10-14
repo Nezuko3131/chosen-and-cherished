@@ -134,7 +134,7 @@ export default async function WishlistPage() {
             directly help a family in need.
           </p>
           <a
-            href={wishlistUrl}
+            href="https://www.amazon.com/hz/wishlist/ls/3FMUETJNOUL7W"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-4 bg-white text-sage-400 font-medium rounded-lg transition-all duration-200 hover:bg-cream-50 text-lg"
