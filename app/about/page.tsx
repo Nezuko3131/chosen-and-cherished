@@ -37,8 +37,9 @@ const defaultContent = {
     { _type: "block", bold: true, lightGreen: true, children: [{ _type: "span", text: "Chosen & Cherished was born." }] },
     { _type: "block", children: [{ _type: "span", text: "We are a faith-based organization providing baby essentials, practical support, and community to mothers choosing life." }] },
     { _type: "block", children: [{ _type: "span", text: "Because when a mother sees a positive pregnancy test, the cost of diapers, clothing, a car seat, or a safe place for her baby to sleep should never be the reason she feels she cannot choose her child." }] },
-    { _type: "block", children: [{ _type: "span", text: "Our purpose is simple: to remind her that she doesn't have to do this alone." }] },
-    { _type: "block", bold: true, lightGreen: true, children: [{ _type: "span", text: "You chose life. Now let us choose to walk beside you." }] },
+    { _type: "block", children: [{ _type: "span", text: "Our purpose is simple: to remind every mother that she doesn't have to walk this journey alone." }] },
+    { _type: "block", bold: true, lightGreen: true, children: [{ _type: "span", text: "She chose life. We chose to walk beside her." }] },
+
   ],
   mission: toBlockFromString(
     "To provide essential baby supplies, resources, and compassionate support to pregnant mothers and families experiencing financial hardship."

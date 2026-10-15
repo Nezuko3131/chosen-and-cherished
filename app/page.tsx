@@ -59,14 +59,14 @@ const defaultContent = {
     subtitle: "Essential support for local mothers and families in need.",
     items: [
       { icon: "diaper",   title: "DIAPERS & WIPES",       description: "Helping families keep their little ones clean and healthy." },
-      { icon: "clothing", title: "CLOTHING",              description: "Newborn to 12 months, gently used and new items." },
+      { icon: "clothing", title: "CLOTHING",              description: "Newborn to 12 months, new and gently used items." },
       { icon: "bottle",   title: "FORMULA & FEEDING SUPPLIES", description: "Supporting growing babies with essential nutrition." },
       { icon: "crib",     title: "SAFE SLEEP ESSENTIALS",  description: "Bassinet or pack 'n play to help provide a safe place to sleep." },
     ],
   },
   waysToHelpSection: {
     title: "HOW YOU CAN HELP",
-    subtitle: "Together we can make a difference in the lives of families.",
+    subtitle: "Together we can make a difference in the lives of thousands of families.",
     items: [
       { title: "Give Financially", description: "A $5, $10 or $25 monthly gift helps us keep diapers, wipes and essentials available.", link: "/donate", linkText: "DONATE NOW" },
       { title: "Shop Our Wishlist", description: "Send the items families need most directly to us through our Amazon Wishlist.",     link: "/wishlist", linkText: "VIEW WISHLIST" },

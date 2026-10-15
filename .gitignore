@@ -39,3 +39,6 @@ next-env.d.ts
 .vscode
 
 .vercel
+
+# Local backup (not deployed)
+public/banner.png.bak
