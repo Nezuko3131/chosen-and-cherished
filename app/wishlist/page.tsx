@@ -68,9 +68,7 @@ export default async function WishlistPage() {
                   Ship Directly to Families
                 </h3>
                 <p className="text-body-sm">
-                  Items purchased from the wishlist ship directly to families in our
-                  program, eliminating logistical challenges and ensuring timely
-                  delivery.
+                  Items purchased from our Amazon Wishlist are shipped directly to us. We receive, organize, and distribute these donations to local moms and families in need.
                 </p>
               </div>
             </div>

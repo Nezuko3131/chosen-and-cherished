@@ -59,7 +59,7 @@ const defaultContent = {
     subtitle: "Essential support for local mothers and families in need.",
     items: [
       { icon: "diaper",   title: "DIAPERS & WIPES",       description: "Helping families keep their little ones clean and healthy." },
-      { icon: "clothing", title: "CLOTHING",              description: "Newborn to 12 months, new and gently used items." },
+      { icon: "clothing", title: "CLOTHING",              description: "Newborn to 24 months, new and gently used items." },
       { icon: "bottle",   title: "FORMULA & FEEDING SUPPLIES", description: "Supporting growing babies with essential nutrition." },
       { icon: "crib",     title: "SAFE SLEEP ESSENTIALS",  description: "Bassinet or pack 'n play to help provide a safe place to sleep." },
     ],
