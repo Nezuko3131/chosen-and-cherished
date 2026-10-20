@@ -135,7 +135,7 @@ export default async function MissionPage() {
             support.
           </p>
           <a
-            href="https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfPo1IACzjjB_cFvDbPiOzfFIgfaXlZXTLqBMVf-wjLfNH0Ow/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

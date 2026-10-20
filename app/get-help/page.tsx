@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Learn how Chosen and Cherished can help you. Diapers, wipes, clothing and essential baby items for local mothers and families.",
 };
 
-const BOLDSIGN_URL = "https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF";
+const REQUEST_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfPo1IACzjjB_cFvDbPiOzfFIgfaXlZXTLqBMVf-wjLfNH0Ow/viewform";
 
 export default function GetHelpPage() {
   return (
@@ -60,10 +60,10 @@ export default function GetHelpPage() {
               </p>
             </div>
 
-            {/* Request Assistance button -> Boldsign */}
+            {/* Request Assistance button -> Google Form */}
             <div className="pt-4 text-center">
               <a
-                href={BOLDSIGN_URL}
+                href={REQUEST_FORM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3 bg-rose-400 hover:bg-rose-500 text-white text-xs md:text-sm font-semibold tracking-[0.2em] rounded-md transition-colors"

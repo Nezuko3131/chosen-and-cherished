@@ -229,7 +229,7 @@ export default async function HomePage() {
             If you or someone you know is experiencing hardship during pregnancy or early parenthood, we&apos;re here to help.
           </p>
           <a
-            href="https://app.boldsign.com/document/sign-bulk-links/?documentId=bb63d999-a396-410b-9d98-3aba278cc34fs_Rd6NF"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfPo1IACzjjB_cFvDbPiOzfFIgfaXlZXTLqBMVf-wjLfNH0Ow/viewform"
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-7 py-3 bg-white text-rose-400 text-xs md:text-sm font-semibold tracking-[0.2em] rounded-md hover:bg-cream-50 transition-colors"
           >

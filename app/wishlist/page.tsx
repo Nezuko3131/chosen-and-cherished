@@ -65,7 +65,7 @@ export default async function WishlistPage() {
               </div>
               <div>
                 <h3 className="heading-sm text-forest-500 mb-2">
-                  Ship Directly to Families
+                  Ship Directly to us
                 </h3>
                 <p className="text-body-sm">
                   Items purchased from our Amazon Wishlist are shipped directly to us. We receive, organize, and distribute these donations to local moms and families in need.
